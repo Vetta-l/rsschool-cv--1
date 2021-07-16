@@ -3,15 +3,24 @@
 Email ivettagluck@gmail.com
 
 *Objective*
-I want a position frontend developer
+I want a position Frontend Developer
 *Work experience*
-* I had work experience in markup developer 
+* I had work experience in Markup Developer 
 * I have knowledge html5/css3
 * I use modern layout techniques — Flexbox, Grid
 * I use template engine PUG
-* Stylus CSS Preprocessor
+* html framework Bootstrap (if necessary)
+* Using Stylus CSS Preprocessor (if necessary - Less, Scss)
 * using and understanding the BEM methodology, component approach in layout
-* scills of working width Photoshop, Figma, Adobe XD, Sketch, Illustrator
+* skills of working width Photoshop, Figma, Adobe XD, Sketch, Illustrator
 
 *Education*
-Belarusian State University, Minsk
+second higher education - Belarusian State University, Minsk
+
+*Code examples*
+`function reverStr(str){
+  return Array.from(str).reverse().join('');
+} `
+
+*level of English*
+A1
