@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link href="css/main.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="wrapper">
+         <div class="box">
+             <div class="title">photo-filter</div>
+            <div class="box-colntrols">
+                <div class="box-colntrols-item"> 
+                    <label for="spacing">Spacing:</label>
+                    <input type="range" name="spacing" value="10" data-sizing='px'>
+                </div>
+                <div class="box-colntrols-item"> 
+                    <label for="blur">Blur:</label>
+                    <input type="range" name="blur" value="5" data-sizing='px'>
+                </div>
+                <div class="box-colntrols-item"> 
+                    <label for="base">Base color:</label>
+                    <input type="color" name="base" value="#000000">
+                </div>
+                <div class="box-colntrols-item"> 
+                    <label for="brightness">Brightness:</label>
+                    <input type="range" name="brightness" value="5" data-sizing='%'>
+                </div>          
+                <div class="box-colntrols-item"> 
+                    <label for="grayscale">Grayscale:</label>
+                    <input type="range" name="grayscale" value="5" data-sizing='%'>
+                </div>   
+                <div class="box-colntrols-item">  
+                    <input class="btn-reset" type="button" value="Reset" >
+                </div>                                      
+            </div>
+            <div class="box-img">
+                <img src="img/bg.jpg" alt="">
+            </div>
+         </div> 
+    </div>
+    <script src="js/main.min.js"></script>
+    </body>
+</body>
+</html>
