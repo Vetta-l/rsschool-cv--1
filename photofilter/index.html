@@ -11,32 +11,34 @@
 <body>
     <div class="wrapper">
          <div class="box">
-             <div class="title">photo-filter</div>
-            <div class="box-colntrols">
-                <div class="box-colntrols-item"> 
-                    <label for="spacing">Spacing:</label>
-                    <input type="range" name="spacing" value="10" data-sizing='px'>
+            <div class="title">photo-filter</div>
+            <form action="">
+                <div class="box-colntrols">
+                    <div class="box-colntrols-item"> 
+                        <label for="spacing">Spacing:</label>
+                        <input type="range" name="spacing" value="10" data-sizing='px'>
+                    </div>
+                    <div class="box-colntrols-item"> 
+                        <label for="blur">Blur:</label>
+                        <input type="range" name="blur" value="5" data-sizing='px'>
+                    </div>
+                    <div class="box-colntrols-item"> 
+                        <label for="base">Base color:</label>
+                        <input type="color" name="base" value="#000000">
+                    </div>
+                    <div class="box-colntrols-item"> 
+                        <label for="brightness">Brightness:</label>
+                        <input type="range" name="brightness" value="5" data-sizing='%'>
+                    </div>          
+                    <div class="box-colntrols-item"> 
+                        <label for="grayscale">Grayscale:</label>
+                        <input type="range" name="grayscale" value="5" data-sizing='%'>
+                    </div>   
+                    <div class="box-colntrols-item">  
+                        <input input type="reset" value="По умолчанию">
+                    </div>                                      
                 </div>
-                <div class="box-colntrols-item"> 
-                    <label for="blur">Blur:</label>
-                    <input type="range" name="blur" value="5" data-sizing='px'>
-                </div>
-                <div class="box-colntrols-item"> 
-                    <label for="base">Base color:</label>
-                    <input type="color" name="base" value="#000000">
-                </div>
-                <div class="box-colntrols-item"> 
-                    <label for="brightness">Brightness:</label>
-                    <input type="range" name="brightness" value="5" data-sizing='%'>
-                </div>          
-                <div class="box-colntrols-item"> 
-                    <label for="grayscale">Grayscale:</label>
-                    <input type="range" name="grayscale" value="5" data-sizing='%'>
-                </div>   
-                <div class="box-colntrols-item">  
-                    <input class="btn-reset" type="button" value="Reset" >
-                </div>                                      
-            </div>
+            </form>
             <div class="box-img">
                 <img src="img/bg.jpg" alt="">
             </div>
