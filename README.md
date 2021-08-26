@@ -1,3 +1,4 @@
 
-https://Vetta-l.github.io/rsschool-cv/js-clock
+
+https://Vetta-l.github.io/rsschool-cv/
 
